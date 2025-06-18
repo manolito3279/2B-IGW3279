@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de etiquetas HTML </title>
+</head>
+<body>
+
+<H1>Uso de etiquetas multimedias y enlaces en HTML</H1>
+
+<!-- Imagen -->
+ <H2>Etiqueta &lt;img&gt;</H2>
+ <p>Se usa para insertar imagenes. Es una etiqueta vacia, no tiene cierre</p>
+ <img src="https://via.placençholder.com/300x200" alt="Imagen de ejemplo" width="300" height="200">
+ <!--
+ Atributos:
+ -src: ruta de la imagen (puede ser local o URL externa)
+ -alt: texto alternativo (importante para accesibilidad)
+-width / height: opcional, define dimensiones
+ -->
+
+ <!-- Video -->
+  <h2>Etiqueta &ltvideo&gt</h2>
+  <p>Permite insertar videos. Se recomienda usar varios formatos para compatibilidad</p>
+<video width="320" height="240" controls>
+  <source src="video-ejemplo.mp4" type="video/mp4">
+  <source src="video-ejmeplo.ogg" type="video/ogg">
+  Tu navegador no soporta la reporducion de video.
+  </video>
+  <!--
+  Atributos:
+  - controls:muestra los controles de reproduccion
+  - autoplay, loop, muted, poster: otros atributos oficiales
+  - source: especifica los archivos de video y sus formatos 
+  -->
+  <!-- video de Youtube -->
+  
+     <h2>Video de Youtube</h2>
+     <p>Para insertar un video de Youtube, usa la etiqueta &lt;iframe&gt;. </p>
+
+
+     <!--feed de instagram-->
+     <h2>Feed de instagram</h2>
+     <p> Para insertar un feed de Instagram, usa la etiqueta &lt;blockquote&gt;.</p>
+
+
+     <!-- Hipervinculo -->
+      <h2> Etiqueta &lt;a&gt;</h2>
+      <p>Sirve para crear enlaces a otras paginas, documentos o ubicaciones.</p>
+      <a href="https://www.wikipèdia.org" target="_blank">ir a wikipèdia</a>
+      <!--
+       Atributos:
+       - href: destino del enlace
+       -target-"_blank": abre el enlace en una nueva pestaña
+       -->
+</body>
+</html>
